@@ -1,0 +1,36 @@
+.item {
+    display: flex;
+    margin: 20px;
+    font-family: serif;
+    font-size: 20px;
+    text-align: left;
+    justify-content: center;
+}
+.img {
+    border-radius: 70px;
+    width: 100px;
+    height: 100px;
+}
+.nav{
+    text-decoration: none;
+    border: 3px solid coral;
+    padding: 0.5em;
+    color: black;
+    width: 100px;
+    text-align: center;
+}
+.friend {
+    padding: 1em;
+    width: 15%;
+}
+.name {
+    font-size: 24px;
+}
+.city {
+    padding: 10px 0;
+}
+.align {
+    display: flex;
+    align-items: center;
+    margin-left: 3em;
+}

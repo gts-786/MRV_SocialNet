@@ -1,0 +1,10 @@
+.profile {
+    display: grid;
+    grid-template-areas: "p d" "posts posts";
+    grid-template-columns: 2fr 7fr;
+}
+.photo {
+    grid-area: p;
+    border-radius: 50px;
+    margin-top: 10px;
+}
