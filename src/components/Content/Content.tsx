@@ -36,7 +36,7 @@ const Content:FC = () => {
                 <Route path='/news' element={<Photos/>} />
                 <Route path='*' element={<ErrorPage/>}/> 
                 <Route path='/' element={<Hello/>}/>
-                <Route path='/tsSocialNet' element={<Hello/>}/> 
+                <Route path='/MRV_SocialNet' element={<Hello/>}/> 
             </Routes>
         </div>
         :
