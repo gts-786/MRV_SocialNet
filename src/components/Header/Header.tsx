@@ -17,7 +17,7 @@ const Header: FC = () => {
             <div>
                 <Menu/>
             </div>
-            <NavLink to='/' onClick={logout}><img src="../../tsSocialNet/images/Exit.png"/></NavLink>
+            <NavLink to='/' onClick={logout}><img src="../../MRV_SocialNet/images/Exit.png"/></NavLink>
         </div>
     );
 };

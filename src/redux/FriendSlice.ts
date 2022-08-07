@@ -8,7 +8,7 @@ interface FriendState {
 
 const initialState: FriendState = {
     friends: [
-        {id: 1, name: 'Luda', surname: 'Ionova', city: 'Moscow', age: 22, image: '../../tsSocialNet/images/friend1.png', 
+        {id: 1, name: 'Luda', surname: 'Ionova', city: 'Moscow', age: 22, image: '../../MRV_SocialNet/images/friend1.png', 
         messages: [
             {id: 1, message: 'Hello!'}, {id: 2, message: 'My name is Roman'}, {id: 3, message: 'How do you do?'}
         ], 
@@ -21,10 +21,10 @@ const initialState: FriendState = {
             {id: 6, title: 'The dog is my favorite animal.', body: 'Tommorow will be sunny day. The weather will be georgeous. ad mollitia et omnis minus architecto odit voluptas doloremque maxime aut non ipsa qui alias veniam blanditiis culpa aut quia nihil cumque facere et occaecati qui aspernatur quia eaque ut aperiam inventore'},
             {id: 7, title: 'There is a light on the street.', body: 'I want on the out. The weather is georgeous. ullam et saepe reiciendis voluptatem adipisci sit amet autem assumenda provident rerum culpa quis hic commodi nesciunt rem tenetur doloremque ipsam iure quis sunt voluptatem rerum illo velit'},
         ]},
-        {id: 2, name: 'Egor', surname: 'Sidorov', city: 'Volgograd', age: 18, image: '../../tsSocialNet/images/friend2.png', messages: [], posts: []},
-        {id: 3, name: 'Anton', surname: 'Petriv', city: 'Kazan', age: 32, image: '../../tsSocialNet/images/friend3.png', messages: [], posts: []},
-        {id: 4, name: 'Vitaly', surname: 'Alekseev', city: 'Kazan', age: 25, image: '../../tsSocialNet/images/friend4.png', messages: [], posts: []},
-        {id: 5, name: 'Svetlana', surname: 'Voronova', city: 'Moscow', age: 41, image: '../../tsSocialNet/images/friend5.png', messages: [], posts: []},
+        {id: 2, name: 'Egor', surname: 'Sidorov', city: 'Volgograd', age: 18, image: '../../MRV_SocialNet/images/friend2.png', messages: [], posts: []},
+        {id: 3, name: 'Anton', surname: 'Petriv', city: 'Kazan', age: 32, image: '../../MRV_SocialNet/images/friend3.png', messages: [], posts: []},
+        {id: 4, name: 'Vitaly', surname: 'Alekseev', city: 'Kazan', age: 25, image: '../../MRV_SocialNet/images/friend4.png', messages: [], posts: []},
+        {id: 5, name: 'Svetlana', surname: 'Voronova', city: 'Moscow', age: 41, image: '../../MRV_SocialNet/images/friend5.png', messages: [], posts: []},
     ]
 }
 

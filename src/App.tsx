@@ -30,7 +30,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Login />} />
             <Route path='*' element={<Error />} />
-            <Route path='/tsSocialNet' element={<Login/>} />
+            <Route path='/MRV_SocialNet' element={<Login/>} />
           </Routes>
         </div>
       </BrowserRouter>
