@@ -2,7 +2,7 @@
   "name": "tssocial",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gts-786.github.io/tsSocialNet",
+  "homepage": "https://gts-786.github.io/MRV_SocialNet",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.2",
     "@testing-library/jest-dom": "^5.16.4",
