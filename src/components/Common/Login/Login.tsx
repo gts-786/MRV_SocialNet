@@ -14,10 +14,11 @@ const Login: FC = () => {
     }
     return (
         <div className={classes.auth}>
-            <h3>Для входа в социальную сеть введите логин и пароль</h3>
+            <h1 className={classes.title}>Для входа в социальную сеть введите логин и пароль</h1>
             <form onSubmit={login}>
-                <MyInput type='text' placeholder='Input your test login (any)'/>
+                <MyInput type='text' placeholder='Input your test login (any)'/><br/>
                 <MyInput type='password' placeholder='Input your test password (any)'/><br/>
+                <p className={classes.py}></p>
                 <MyButton>Log in my social network</MyButton>
             </form>
         </div>

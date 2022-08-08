@@ -2,6 +2,7 @@
     display: grid;
     grid-template-areas: "p d" "posts posts";
     grid-template-columns: 2fr 7fr;
+    margin-left: 0.5em;
 }
 .photo {
     grid-area: p;

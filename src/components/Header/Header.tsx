@@ -13,11 +13,11 @@ const Header: FC = () => {
     }
     return (
         <div className={classes.header}>
-            <div className={classes.logo}>MRV</div>
+            <NavLink to='/' className={classes.toMain}><div className={classes.logo}>MRV</div></NavLink>
             <div>
                 <Menu/>
             </div>
-            <NavLink to='/' onClick={logout}><img src="../../MRV_SocialNet/images/Exit.png"/></NavLink>
+            <NavLink to='/' onClick={logout}><img src="../../MRV_SocialNet/images/Exit.png" className={classes.exit}/></NavLink>
         </div>
     );
 };

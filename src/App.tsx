@@ -26,11 +26,11 @@ function App() {
       </BrowserRouter>
       :
       <BrowserRouter>
-        <div>
+        <div className="auth">
           <Routes>
             <Route path='/' element={<Login />} />
             <Route path='*' element={<Error />} />
-            <Route path='/MRV_SocialNet' element={<Login/>} />
+            <Route path='/MRV_SocialNet/' element={<Login/>} />
           </Routes>
         </div>
       </BrowserRouter>

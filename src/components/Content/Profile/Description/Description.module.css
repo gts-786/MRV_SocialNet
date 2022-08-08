@@ -1,4 +1,7 @@
 .description {
     grid-area: d;
     text-align: left;
+    font-family: serif;
+    font-weight: 100;
+    margin-left: 0.5em;
 }

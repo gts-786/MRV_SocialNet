@@ -1,18 +1,33 @@
 .menu {
-    grid-area: sidebar;
-
-    font-family: serif;
-    font-size: 32px;
+  font-family: serif;
+  font-size: 32px;
 }
 
 .ref {
-    text-decoration: none;
-    color: coral;
+  text-decoration: none;
+  color: coral;
 }
 
 .active {
-    font-size: 46px;
-    text-decoration: none;
-    color: coral;
-    font-weight: bold;
+  font-size: 46px;
+  text-decoration: none;
+  color: coral;
+  font-weight: bold;
+}
+
+@media (max-width: 577px) {
+  .menu {
+    font-size: 28px;
+  }
+  .active {
+    font-size: 35px;
+  }
+}
+@media (max-width: 400px) {
+  .menu {
+    font-size: 20px;
+  }
+  .active {
+    font-size: 28px;
+  }
 }

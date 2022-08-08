@@ -18,3 +18,37 @@
   width: 45px;
   justify-content: center;
 }
+
+.toMain {
+  text-decoration: none;
+}
+
+.exit {
+  height: 40px;
+  margin-top: 14px;
+}
+
+@media (min-width: 400px) and (max-width: 577px) {
+  .logo {
+    font-size: 20px;
+    border-radius: 70px;
+    width: 35px;
+  }
+  .exit {
+    height: 25px;
+    margin-top: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo {
+    font-size: 16px;
+    border-radius: 60px;
+    width: 27px;
+    margin-left: 5px;
+  }
+  .exit {
+    height: 18px;
+    margin-top: 11px;
+  }
+}
