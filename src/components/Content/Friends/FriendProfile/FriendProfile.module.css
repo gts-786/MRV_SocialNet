@@ -7,10 +7,12 @@
     grid-area: p;
     border-radius: 50px;
     margin-top: 10px;
+    margin-left: 0.5em;
 }
 .description {
     grid-area: d;
     text-align: left;
+    margin-left: 1em;
 }
 .posts {
     grid-area: posts;

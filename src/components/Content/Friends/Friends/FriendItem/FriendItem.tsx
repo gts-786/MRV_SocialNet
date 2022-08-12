@@ -15,7 +15,7 @@ const FriendItem: FC<FriendItemProps> = ({ friend }) => {
                 </NavLink>
             </div>
             <div className={classes.friend}>
-                <div className={classes.name}>{friend.name}, {friend.age} years</div>
+                <div className={classes.name}>{friend.name} <br/> {friend.age} years</div>
                 <div className={classes.city}>{friend.city}</div>
             </div>
             <div className={classes.align}>

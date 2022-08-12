@@ -27,8 +27,8 @@ const Photos: FC = () => {
         fetchPhotos();
     }, [page])
     return (
-        <div>
-            <h2>На данной вкладке реализован механизм бесконечной ленты с подгрузкой новостей с сервера по 20 штук</h2>
+        <div style={{margin: '5px'}}>
+            <h3>На данной вкладке реализован механизм бесконечной ленты с подгрузкой новостей с сервера по 20 штук</h3>
             {isPhotosLoading ? <h3>Идёт загрузка...</h3> : <></>}
             {photosError && <h2>Fail - {photosError}</h2>}
             <div className={classes.photos}>
