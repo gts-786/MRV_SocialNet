@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/MRV_SocialNet/static/css/main.e730d26c.css",
-    "main.js": "/MRV_SocialNet/static/js/main.3d4987ea.js",
+    "main.css": "/MRV_SocialNet/static/css/main.4284a1f0.css",
+    "main.js": "/MRV_SocialNet/static/js/main.fa8a125a.js",
     "static/media/ava.png": "/MRV_SocialNet/static/media/ava.1c5aa88477e052251d63.png",
     "index.html": "/MRV_SocialNet/index.html",
-    "main.e730d26c.css.map": "/MRV_SocialNet/static/css/main.e730d26c.css.map",
-    "main.3d4987ea.js.map": "/MRV_SocialNet/static/js/main.3d4987ea.js.map"
+    "main.4284a1f0.css.map": "/MRV_SocialNet/static/css/main.4284a1f0.css.map",
+    "main.fa8a125a.js.map": "/MRV_SocialNet/static/js/main.fa8a125a.js.map"
   },
   "entrypoints": [
-    "static/css/main.e730d26c.css",
-    "static/js/main.3d4987ea.js"
+    "static/css/main.4284a1f0.css",
+    "static/js/main.fa8a125a.js"
   ]
 }
